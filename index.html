@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>P&P HVAC COMPANY WEBSITE</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">
+            <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTifz5v36ad0JWSnoMk5p4l3LYl18oTZ-aS7Q3K5eREMnBhqzLaSMQWsELzJ0d3ejT7MI&usqp=CAU"
+          alt="P&P HVAC LLC"
+        />P&P HVAC</div>
+            <div class="right">
+                <ul>
+                <li><a href="#section1">Home</a></li>
+                <li><a href="#section2">About</a></li>
+                <li><a href="#section3">Service</a></li>
+                <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+<main>
+    <section class="firstPart" id="section1">
+        <div class="leftSection">
+           <div class="leftSection1"> Welcome to <span class="orange">P&P HVAC</span></div>
+        <div>P&P HVAC is a reputable HVAC company dedicated to providing high-quality heating, cooling, and ventilation solutions to residential, commercial, and industrial customers. With 10+ of industry experience, we have built a strong reputation for our</div>
+        <span id="element"></span>
+        </div>
+        <div class="rightSection">
+        <img src="bg.png" alt="">
+        </div>
+        </section>
+        <hr>
+        <section class="secondPart" id="#section3">
+        <h1>About Us</h1>
+        </section>
+        <hr>
+        <section class="thirdPart" id="#section4">
+        <h1>Service</h1>
+        </section>
+</main>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#element', {
+      strings: ['expertise', 'reliability', 'customer satisfaction'],
+      typeSpeed: 50,
+      loop: true,
+       loopCount: Infinity,
+    });
+   </script>
+  <div id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Name" required />
+      <input type="email" placeholder="Email" required />
+      <input type="tel" placeholder="Phone" required />
+      <textarea placeholder="Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+  <br>
+  <br>
+  <footer>
+    <p>&copy; P&P HVAC LLC. All rights reserved.</p>
+    <div class="footer-social">
+      <h6 class="ftr-hdr">Follow Us</h6>
+      <ul>
+        <li>
+          <a href="https://www.facebook.com/art.com" title="Facebook" onclick="_gaq.push(['_trackSocial', 'Facebook', 'Follow', 'Footer', 'undefined', 'True']);">
+            <img width="24" height="24" alt="Like us on Facebook" src="http://cache1.artprintimages.com/images/jump_pages/rebrand/footer/fb.png">
+          </a>
+        </li>
+        <li>
+          <a href="https://plus.google.com/108089796661280870153" title="Google+" onclick="_gaq.push(['_trackSocial', 'GooglePlus', 'Follow', 'Footer', 'undefined', 'True']);">
+            <img width="24" height="24" alt="Follow us on Google+" src="http://cache1.artprintimages.com/images/jump_pages/rebrand/footer/gplus.png">
+          </a>
+        </li>
+        <li>
+          <a href="https://pinterest.com/artdotcom/" target="_blank">
+            <img width="24" height="24" alt="Follow us on Pinterest" src="http://cache1.artprintimages.com/images/jump_pages/rebrand/footer/pin-badge.png">
+          </a>
+        </li>
+        <li>
+          <a target="_blank" href="http://instagram.com/artdotcom/">
+            <img width="24" height="24" alt="Follow us on Instagram" src="http://cache1.artprintimages.com/images/jump_pages/rebrand/footer/instagram-badge.png">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com/artdotcom" title="Twitter" onclick="_gaq.push(['_trackSocial', 'Twitter', 'Follow', 'Footer', 'undefined', 'True']);">
+            <img width="67" alt="Follow us on Twitter" src="http://cache1.artprintimages.com/images/jump_pages/rebrand/footer/twitter.png">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
